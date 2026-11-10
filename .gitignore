@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and OS noise
+.idea/
+.vscode/
+.DS_Store
+
+# Local env files (base_url, jwt_token) — never commit secrets
+.env
+.env.*
